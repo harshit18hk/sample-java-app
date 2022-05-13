@@ -53,7 +53,7 @@ pipeline {
 		 sh '''mvn sonar:sonar \
                  -Dsonar.projectName=test \
                    -Dsonar.projectVersion=1.0 \
-                 -Dsonar.host.url=http://18.117.189.117 '''
+                 -Dsonar.host.url=http://172.31.13.247 '''
                 
                   
                   
