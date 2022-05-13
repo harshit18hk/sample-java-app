@@ -2,6 +2,10 @@ pipeline {
     
 	agent any
 	
+	tools {
+        maven "maven"
+    }
+	
 	stages{
   
         stage('CODE ANALYSIS with SONARQUBE') {
