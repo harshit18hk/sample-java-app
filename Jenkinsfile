@@ -51,7 +51,7 @@ pipeline {
           steps {
             withSonarQubeEnv('sonarqube-server') {
 		 sh '''mvn sonar:sonar \
-                 -Dsonar.projectName=test \
+                 -Dsonar.projectName=jenkins-sonar-project \
                    -Dsonar.projectVersion=1.0 \
                  -Dsonar.host.url=http://172.31.13.247 '''
                 
